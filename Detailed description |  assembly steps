@@ -1,0 +1,11 @@
+The following steps will explain how to assemble and what to check before running.
+
+1.	GY-b11 280 barometric pressure sensor
+* adjust buad rate to 115200.
+* “begin” should be set to 0x76.
+See https://www.xtronical.com/bmp280andesp32 for reference.
+Regarding the baud rate and the begin-this depends on your type of sensor and may or may not be true depending on its quality. Try both if one is not working. 
+
+2. The SHT3X Temperature and Relative humidity sensor code, along with WIFI and uploading to Thingspeak codes
+can be found on https://agrotech-lab.github.io/code/2022/04/05/intro-to-sensor-modules-and-thingspeak.
+The wiring is similar to the BMP280 in that it is I2C and is thus wired with SCL to I2C Clock (pin 22) and SDA to I2C Data (pin 21).

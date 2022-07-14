@@ -10,6 +10,8 @@ This project aims to build a working weather station that can measure and report
 * Calculated VPD
 * Calculated Evopotranspiration
 
+Project images folder includes pictures of the components connected to the microcontroller.
+
 List of components:
 
 1.	GY-b11 280 barometric pressure sensor (also measures temperature and RH but not included in code)
